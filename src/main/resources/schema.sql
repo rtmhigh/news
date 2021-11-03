@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS tbl_news;
+
+CREATE TABLE tbl_news
+(
+    id      INT AUTO_INCREMENT PRIMARY KEY,
+    title   VARCHAR(255)  NOT NULL,
+    content VARCHAR(5000) NOT NULL
+);
