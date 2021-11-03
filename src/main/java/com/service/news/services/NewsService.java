@@ -16,4 +16,8 @@ public class NewsService {
     public List<News> getAllNews() {
         return repository.findAll();
     }
+
+    public void addNews(News news) {
+        repository.save(news);
+    }
 }
